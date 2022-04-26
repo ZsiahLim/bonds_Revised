@@ -377,52 +377,45 @@ Responsive */
 /*Select Dropbox------------------------------------------
 */
 
-*, *::before,*::after {
-  box-sizing: border-box;
-}
-:root {
-  --select-border: #777;
-  --select-focus: blue;
-  --select-arrow: var(--select-border);
-}
-
-select {
-  appearance: none;
-  background-color: transparent;
+select.dropbox {
   -webkit-appearance: none;
   -moz-appearance: none;
-  border: none;
+  appearance: none;
+  background:#e6e6e6;
+  color: #666;
+  width: 80%;
   padding: 0px 2px 1px;
-  text-align: center;
-  margin: 0;
-  width: 50%;
+  border-radius: 25px;
+  border: none;
+  line-height: 25px;
+
   font-family: Poppins-regular;
   font-size: 15px;
-  cursor: inherit;
-  line-height: 30px;
-  color:#666666;
+  text-align: center;
+}
+
+select.dropbox option {
+  color: #46CDCF;
+  padding: 0 10px;
+}
+
+.select:after {
+  content: '';
+  clip-path: polygon(50% 30%, 25% 0, 75% 0);
+  border: 1px solid #3D84A8;
+  background: #3D84A8;
+  color: #fff;
+  padding: 5px 10px;
+  pointer-events: none;
+  transform: scale(1);
+  position: relative;
+  left: -24px;
+  top: 13px;
 }
 
 .select {
-  width: 80%;
-  line-height: 1.5;
-  color: #666666;
-  display: block;
-  background: #e6e6e6;
-  height: 30px;
-  border-radius: 25px;
-  padding: 0px 2px 1px;
-  text-align: center;
-  display: grid;
-  align-items: center;
-  grid-area: select;
-}
-
-.select::after {
-  content:"";
-  background-color: var(--select-arrow);
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-  grid-area:inherit;
+  position: relative;
+  width: 10px;
 }
 
 /*Checkbox-----------------------------------------------
