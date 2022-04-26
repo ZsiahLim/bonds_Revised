@@ -407,7 +407,6 @@ select.dropbox option {
   color: #fff;
   padding: 5px 10px;
   pointer-events: none;
-  transform: scale(1);
   position: relative;
   left: -24px;
   top: 13px;
