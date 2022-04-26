@@ -392,6 +392,7 @@ select.dropbox {
   font-family: Poppins-regular;
   font-size: 15px;
   text-align: center;
+  direction: rtl;
 }
 
 select.dropbox option {
@@ -399,7 +400,7 @@ select.dropbox option {
   padding: 0 10px;
 }
 
-.select:after {
+.select01:after {
   content: '';
   clip-path: polygon(50% 30%, 25% 0, 75% 0);
   border: 1px solid #3D84A8;
@@ -412,7 +413,7 @@ select.dropbox option {
   top: 13px;
 }
 
-.select {
+.select01 {
   position: relative;
   width: 10px;
 }
