@@ -392,7 +392,8 @@ select.dropbox {
   font-family: Poppins-regular;
   font-size: 15px;
   text-align: center;
-  direction: rtl;
+  text-align: -webkit-center;
+  text-align: -moz-center;
 }
 
 select.dropbox option {
