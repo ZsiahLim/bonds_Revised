@@ -1,5 +1,5 @@
 # bonds-frontend
-https://rayguang6.github.io/bonds-frontend/index.html
+https://zsiahlim.github.io/bonds_revised/
 
 Start building at main content area (.main_content_container) at line 222
 The main content area is wrapped with contaiener and row already.
