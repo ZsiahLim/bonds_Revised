@@ -430,6 +430,7 @@ input[type="checkbox"] {
   background-color: #fff;
   margin: 0;
   -webkit-appearance: none;
+  -moz-appearance: none;
 
 
   font: inherit;
